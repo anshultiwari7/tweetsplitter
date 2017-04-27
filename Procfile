@@ -1,1 +1,1 @@
-Web: gunicorn splittweets.wsgi:application
+web: gunicorn splittweets.wsgi:application

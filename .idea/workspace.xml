@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splittweets/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="487">
+              <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="48" />
               <folding>
                 <element signature="e#316#348#0" expanded="true" />
               </folding>
@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tailretwitter.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tailretwitter.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/splittweets/static/css/tailretwitter.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
@@ -796,6 +796,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/splittweets/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="48" />
+          <folding>
+            <element signature="e#316#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/splittweets/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -811,16 +821,6 @@
         <state relative-caret-position="52">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splittweets/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#316#348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
