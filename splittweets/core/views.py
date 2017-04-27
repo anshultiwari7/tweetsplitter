@@ -146,7 +146,7 @@ def tweeted(request):
     return HttpResponse('All done, move to previous page to tweet again')
 
 
-@login_required
+# @login_required
 def home(request):
     return render(request, 'core/home.html')
 
