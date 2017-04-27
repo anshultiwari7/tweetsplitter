@@ -36,7 +36,7 @@ SECRET_KEY = '1egsu^+z&@6wg&$fz8d(1bmv#pi91heo^%$i&uc5na0n%8ukg('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','tweetsplitter.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','tweetsplitter.herokuapp.com','172.16.106.194']
 
 
 # Application definition
