@@ -90,9 +90,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'splittweets.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -123,8 +120,10 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.10/howto/static-files/
+SOCIAL_AUTH_TWITTER_KEY = 'PJHiQkrKFqoEupUi7jmuiaVjM'
+SOCIAL_AUTH_TWITTER_SECRET = 'QDfr0Z2Do1adW4PGuv4dLBwzzY6g7IRhGgvy25cd5c0IfnoJJF'
+SOCIAL_TWITTER_ACCESS_TOKEN = '857761073956438016-5JS8EVkZH6LuorNuhqgzHe9HeUOKurD'
+SOCIAL_TWITTER_ACCESS_TOKEN_SECRET = 'fWoWzDdZQoVEsZxnJgc6cI3wkCWPtr7K9aPTm15424r9b'
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
@@ -137,13 +136,8 @@ STATICFILES_DIRS = (
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = 'home'
-#
-# SOCIAL_AUTH_GITHUB_KEY = config('SOCIAL_AUTH_GITHUB_KEY')
-# SOCIAL_AUTH_GITHUB_SECRET = config('SOCIAL_AUTH_GITHUB_SECRET')
 
 
-# SOCIAL_AUTH_FACEBOOK_KEY = config('SOCIAL_AUTH_FACEBOOK_KEY')
-# SOCIAL_AUTH_FACEBOOK_SECRET = config('SOCIAL_AUTH_FACEBOOK_SECRET')
 
 SOCIAL_AUTH_LOGIN_ERROR_URL = '/settings/'
 SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/settings/'
